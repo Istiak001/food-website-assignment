@@ -1,0 +1,291 @@
+/*  ==========* Google Font *========== */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@400;700&display=swap');
+/* 
+================ Google Font's Name ================
+================================
+font-family: 'Lobster', cursive;
+
+font-family: 'Overlock', cursive;
+================================
+================================
+*/
+/* ==========* Common Css *========== */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+}
+a{
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+body{
+    font-family: 'Overlock', cursive;
+    color: black;
+}
+/* ==========* Nav/Menu,Logo-Section *========== */
+#food{
+
+}
+.main_menu{
+    display: flex;
+    padding: 14px 10px;
+    background-color:#f368e0;
+    color:white;
+}
+.logo{
+    float: left;
+    width:50%;
+    font-family: 'Lobster', cursive;
+}
+.logo h3{
+    padding-left: 45px;
+    font-size: 35px;
+    color: white;
+}
+.logo h3:hover{
+    color: black;
+}
+.food_link{
+    float:right;
+    width: 50%;
+}
+.food_link nav{
+    padding-left: 35px;
+}
+.nav_link a{
+    padding:5px 10px ;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav_link a:hover{
+    background-color: black;
+    border-radius: 2px;
+}
+/* ==========* Home-Section *========== */
+#home{}
+.food_home{
+    display: flex;
+    padding:60px 20px 14px 54px;
+    background-image: url(image/home_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.home_span{
+    color:#f368e0;
+}
+.food_home_text{
+    width:50%;
+    font-weight: bold;
+    padding-top: 180px;
+}
+.food_home_text h2{
+    font-size: 30px;
+    padding: 1px 0px 3px 4px;
+}
+.home_paragrap{
+    padding-top: 20px;
+}
+.home_paragrap p{}
+.food_home_img{
+    width:50%;
+}
+.btn{
+    margin-top: 40px;
+}
+.btn a{
+    color: white;
+    background-image: linear-gradient(orange,red);
+    text-decoration: none;
+    border-radius: 45px;
+    padding: 25px 35px;
+    font-weight: bold;
+}
+/* ==========* About-Section *========== */
+#about{
+    width: 100%;
+    background-image: url(image/about_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:51px 25px;
+    display: flex;
+}
+.about_bg{}
+.about_img{
+    width: 50%;
+}
+.about_text{
+    width:50%;
+    margin: 60px 0px;
+}
+.about_text h2{
+    font-weight: bold;
+    font-size: 35px;
+}
+.about_paragrap{
+    padding: 30px 0px;
+}
+.about_paragrap p{
+    font-weight: bold;
+    padding-top:5px;
+}
+.p_hero{
+    color:orange;
+}
+/* ==========* Recipies-Section *========== */
+#recipies{
+    background-color: #f368e0;
+}
+.recipies_sec{}
+.recipies_sec h1{
+    padding: 45px 0px 20px 0px;
+}
+.recipies_sec{
+    text-align: center;
+}
+
+.recipies_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 8.33%;
+    color: white;
+}
+.r_card{
+    width: 25%;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 0px 40px;
+    box-shadow: -1px 3px 25px 14px #b2bec3;
+}
+.card_img img{
+    width: 100%;
+    height: auto;
+}
+.b_r img{
+    border-radius: 13px;
+}
+.card_text{
+    padding-top: 15px;
+}
+.card_ht{
+    padding: 10px 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.card_p{
+    padding-left: 10px;
+    margin-bottom: 45px;
+}
+/* ==========* Follow-Section *========== */
+#follow{
+    padding: 80px 0px;
+}
+.follow_sec{}
+.follow_c{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: -1px 3px 25px 14px #b2bec3;
+    margin: 0 auto;
+    display: flex;
+}
+.div_spacing{
+    width: 25%;
+    padding: 30px 3px 30px 80px;
+    margin: 0 auto;
+}
+.follow_heading h2{
+    font-size: 40px;
+}
+.follow_text{}
+/* ==========* Contect_Us-Section *========== */
+#contact{
+    width: 50%;
+    margin: 0 auto;
+}
+.contact_form{}
+.contact_inner h2{
+    padding: 10px 9px;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 45px;
+
+}
+.input_div{
+    padding-top: 10px;
+}
+input{
+    width: 90%;
+    height: 40px;
+    outline: none;
+    border: 2px solid #f368e0;
+    color: tomato;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+::placeholder{
+    color: palevioletred;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+textarea{
+    width: 90%;
+    outline: none;
+    border: 2px solid #f368e0;
+    color: tomato;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn_send{
+    margin-top: 15px;
+}
+.btn_send a{
+    border-radius: 16px;
+    padding: 10px 33px; 
+}
+/* ==========* Footer-Section *========== */
+.footer{
+    background-color: #2d3436;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer_heading{}
+.footer_heading h3{
+    color: #636e72;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 14px 5px;
+}
+.footer_heading a{
+    text-decoration: none;
+}
+.footer_heading a span{
+    color: tomato;
+}
+.footer_text p{
+    padding: 13px 5px;
+    color: whitesmoke;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+/*
+================================
+================================
+================================
+================================
+==========* Thank You, *========== 
+==========* Al Noor Istiak Mahmud. *========== 
+*/
